@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Lenovo IdeaPad Slim 3i 8va Gen (15”, Intel)",
+    "image": "https://p2-ofp.static.pub/fes/cms/2022/12/05/4xmv4q7x8ckr0wctmmh4x1al7k5ly7924347.png",
+    "price": 889999
+  },
+  {
+    "id": 2,
+    "name": "IdeaPad Slim 3 8va Gen (15”, AMD)",
+    "image": "https://p3-ofp.static.pub/fes/cms/2022/12/28/lnfmv13jwu5nb0xzzmczeytk58lh6e366455.png",
+    "price": 769999
+  },
+  {
+    "id": 20,
+    "name": "Auriculares Inalámbricos con Bluetooth Negro Philco Plegables AP1706B",
+    "image": "https://images.fravega.com/f300/5c3e53038c8c5c54cdbfc1d42ecd8a4d.jpg.webp",
+    "price": 39999
+  },
+  {
+    "id": 21,
+    "name": "Auriculares Hp Dhh-1205 Plegable Con Microfono",
+    "image": "https://images.fravega.com/f300/99815a30e95d6e0ee55b55e11fe79bff.jpg.webp",
+    "price": 30949
+  },
+  {
+    "id": 22,
+    "name": "Auriculares Motorola Xt200 3.5mm Con Microfono Vincha",
+    "image": "https://images.fravega.com/f300/7b3b9827da5af7be1e21b2d2c99ee63c.jpg.webp",
+    "price": 46200
+  },
+  {
+    "id": 23,
+    "name": "Smart TV Philips LED 43” 4K 43PUD7408/77",
+    "image": "https://images.fravega.com/f300/e5cce77aafb6fdfc8efda708a4dd7aef.jpg.webp",
+    "price": 499999
+  },
+  {
+    "id": 24,
+    "name": "Smart TV TCL 55” 4K UHD Google TV L55P635",
+    "image": "https://images.fravega.com/f300/564b95cffcd6624e13c0398329d74c49.jpg.webp",
+    "price": 699999
+  },
+  {
+    "id": 25,
+    "name": "Smart Tv Bgh B5024us6g 50\" con Google Tv Negro",
+    "image": "https://images.fravega.com/f300/47b1a678b8b3b770ecb056178eb29dfc.jpg.webp",
+    "price": 639999
+  },
+  {
+    "id": 30,
+    "name": "Mouse Logitech M90 Color Negro",
+    "image": "https://images.fravega.com/f300/64633e7a3f55ee2ecd6d57d3e63b0c3a.jpg.webp",
+    "price": 6199
+  },
+  {
+    "id": 31,
+    "name": "Pava Eléctrica Philco PEPH1182IP Inoxidable",
+    "image": "https://images.fravega.com/f300/db505f85340f2d7a335a0cf83fbb34a1.jpg.webp",
+    "price": 24999
+  },
+  {
+    "id": 32,
+    "name": "Celular Motorola E14 64GB Orchid Bloom",
+    "image": "https://images.fravega.com/f300/02fb73c8f3ade2e905a35d10130c5de4.jpg.webp",
+    "price": 149999
+  },
+  {
+    "id": 33,
+    "name": "Freidora de Aire ATMA con Visor FR246ABP 6Lts Negro",
+    "image": "https://images.fravega.com/f300/5ce62bc4f475f539f46e6771b76c1828.jpg.webp",
+    "price": 99999
+  }
+]
