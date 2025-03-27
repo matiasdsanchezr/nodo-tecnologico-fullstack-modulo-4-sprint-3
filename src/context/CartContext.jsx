@@ -40,14 +40,14 @@ const CartProvider = ({ children }) => {
     setCart(() => updatedCart);
   };
 
-  const totalPrice = cart.reduce(
-    (total, product) => total + product.price * product.quantity,
-    0,
-  );
+  const totalPrice = () =>
+    cart.reduce((total, product) => total + product.price * product.count, 0);
 
   const isInCart = (id) => {
     return cart.some((product) => id === product.id);
   };
+
+  const clearCart = () => setCart([]);
 
   return (
     <CartContext.Provider
@@ -58,6 +58,7 @@ const CartProvider = ({ children }) => {
         updateQuantity,
         totalPrice,
         isInCart,
+        clearCart,
       }}
     >
       {children}

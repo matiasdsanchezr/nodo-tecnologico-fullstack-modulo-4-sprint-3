@@ -67,7 +67,7 @@ const CartItem = ({ product }) => {
 };
 
 export const CartModal = ({ isModalOpen, onCloseCart }) => {
-  const { cart, totalPrice } = useContext(CartContext);
+  const { cart, totalPrice, clearCart } = useContext(CartContext);
 
   const handleClickOutsideModal = (event) => {
     event.preventDefault();
@@ -109,6 +109,14 @@ export const CartModal = ({ isModalOpen, onCloseCart }) => {
             ))}
           </div>
         )}
+        <div className="flex p-2">
+          <button
+            onClick={clearCart}
+            className="p-2 rounded-md m-auto border-3 dark:bg-white dark:text-black hover:border-accent-teal"
+          >
+            Vaciar Carrito
+          </button>
+        </div>
 
         {/* Total amount */}
         <div>
@@ -117,7 +125,7 @@ export const CartModal = ({ isModalOpen, onCloseCart }) => {
             {new Intl.NumberFormat("es-AR", {
               style: "currency",
               currency: "ARS",
-            }).format(totalPrice)}
+            }).format(totalPrice())}
           </h3>
         </div>
       </div>
